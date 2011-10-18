@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB8FD3AF144DA4DB0044AB9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8FD3AE144DA4DB0044AB9C /* UIKit.framework */; };
+		BB8FD3B1144DA4DB0044AB9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8FD3B0144DA4DB0044AB9C /* Foundation.framework */; };
+		BB8FD3B3144DA4DB0044AB9C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8FD3B2144DA4DB0044AB9C /* CoreGraphics.framework */; };
+		BB8FD3B9144DA4DB0044AB9C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB8FD3B7144DA4DB0044AB9C /* InfoPlist.strings */; };
+		BB8FD3BB144DA4DB0044AB9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8FD3BA144DA4DB0044AB9C /* main.m */; };
+		BB8FD3BF144DA4DB0044AB9C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8FD3BE144DA4DB0044AB9C /* AppDelegate.m */; };
+		BB8FD3C2144DA4DB0044AB9C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8FD3C1144DA4DB0044AB9C /* FirstViewController.m */; };
+		BB8FD3C4144DA4DB0044AB9C /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = BB8FD3C3144DA4DB0044AB9C /* first.png */; };
+		BB8FD3C6144DA4DB0044AB9C /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB8FD3C5144DA4DB0044AB9C /* first@2x.png */; };
+		BB8FD3C9144DA4DB0044AB9C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8FD3C8144DA4DB0044AB9C /* SecondViewController.m */; };
+		BB8FD3CB144DA4DB0044AB9C /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = BB8FD3CA144DA4DB0044AB9C /* second.png */; };
+		BB8FD3CD144DA4DB0044AB9C /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB8FD3CC144DA4DB0044AB9C /* second@2x.png */; };
+		BB8FD3D0144DA4DB0044AB9C /* FirstViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB8FD3CE144DA4DB0044AB9C /* FirstViewController_iPhone.xib */; };
+		BB8FD3D3144DA4DB0044AB9C /* FirstViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB8FD3D1144DA4DB0044AB9C /* FirstViewController_iPad.xib */; };
+		BB8FD3D6144DA4DB0044AB9C /* SecondViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB8FD3D4144DA4DB0044AB9C /* SecondViewController_iPhone.xib */; };
+		BB8FD3D9144DA4DB0044AB9C /* SecondViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB8FD3D7144DA4DB0044AB9C /* SecondViewController_iPad.xib */; };
+		BB8FD3E1144DA4DB0044AB9C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8FD3E0144DA4DB0044AB9C /* SenTestingKit.framework */; };
+		BB8FD3E2144DA4DB0044AB9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8FD3AE144DA4DB0044AB9C /* UIKit.framework */; };
+		BB8FD3E3144DA4DB0044AB9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8FD3B0144DA4DB0044AB9C /* Foundation.framework */; };
+		BB8FD3EB144DA4DB0044AB9C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB8FD3E9144DA4DB0044AB9C /* InfoPlist.strings */; };
+		BB8FD3EE144DA4DB0044AB9C /* TicketomatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8FD3ED144DA4DB0044AB9C /* TicketomatTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB8FD3E4144DA4DB0044AB9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB8FD3A1144DA4DA0044AB9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB8FD3A9144DA4DB0044AB9C;
+			remoteInfo = Ticketomat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB8FD3AA144DA4DB0044AB9C /* Ticketomat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ticketomat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB8FD3AE144DA4DB0044AB9C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BB8FD3B0144DA4DB0044AB9C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BB8FD3B2144DA4DB0044AB9C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BB8FD3B6144DA4DB0044AB9C /* Ticketomat-Info.plist */ = {isa = PBXFileReference; path = "Ticketomat-Info.plist"; sourceTree = "<group>"; };
+		BB8FD3B8144DA4DB0044AB9C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BB8FD3BA144DA4DB0044AB9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB8FD3BC144DA4DB0044AB9C /* Ticketomat-Prefix.pch */ = {isa = PBXFileReference; path = "Ticketomat-Prefix.pch"; sourceTree = "<group>"; };
+		BB8FD3BD144DA4DB0044AB9C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB8FD3BE144DA4DB0044AB9C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB8FD3C0144DA4DB0044AB9C /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		BB8FD3C1144DA4DB0044AB9C /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		BB8FD3C3144DA4DB0044AB9C /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		BB8FD3C5144DA4DB0044AB9C /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		BB8FD3C7144DA4DB0044AB9C /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		BB8FD3C8144DA4DB0044AB9C /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		BB8FD3CA144DA4DB0044AB9C /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		BB8FD3CC144DA4DB0044AB9C /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		BB8FD3CF144DA4DB0044AB9C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController_iPhone.xib; sourceTree = "<group>"; };
+		BB8FD3D2144DA4DB0044AB9C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController_iPad.xib; sourceTree = "<group>"; };
+		BB8FD3D5144DA4DB0044AB9C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController_iPhone.xib; sourceTree = "<group>"; };
+		BB8FD3D8144DA4DB0044AB9C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController_iPad.xib; sourceTree = "<group>"; };
+		BB8FD3DF144DA4DB0044AB9C /* TicketomatTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicketomatTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB8FD3E0144DA4DB0044AB9C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BB8FD3E8144DA4DB0044AB9C /* TicketomatTests-Info.plist */ = {isa = PBXFileReference; path = "TicketomatTests-Info.plist"; sourceTree = "<group>"; };
+		BB8FD3EA144DA4DB0044AB9C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BB8FD3EC144DA4DB0044AB9C /* TicketomatTests.h */ = {isa = PBXFileReference; path = TicketomatTests.h; sourceTree = "<group>"; };
+		BB8FD3ED144DA4DB0044AB9C /* TicketomatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicketomatTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB8FD3A7144DA4DB0044AB9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8FD3AF144DA4DB0044AB9C /* UIKit.framework in Frameworks */,
+				BB8FD3B1144DA4DB0044AB9C /* Foundation.framework in Frameworks */,
+				BB8FD3B3144DA4DB0044AB9C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8FD3DB144DA4DB0044AB9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8FD3E1144DA4DB0044AB9C /* SenTestingKit.framework in Frameworks */,
+				BB8FD3E2144DA4DB0044AB9C /* UIKit.framework in Frameworks */,
+				BB8FD3E3144DA4DB0044AB9C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB8FD39F144DA4DA0044AB9C = {
+			isa = PBXGroup;
+			children = (
+				BB8FD3B4144DA4DB0044AB9C /* Ticketomat */,
+				BB8FD3E6144DA4DB0044AB9C /* TicketomatTests */,
+				BB8FD3AD144DA4DB0044AB9C /* Frameworks */,
+				BB8FD3AB144DA4DB0044AB9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB8FD3AB144DA4DB0044AB9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB8FD3AA144DA4DB0044AB9C /* Ticketomat.app */,
+				BB8FD3DF144DA4DB0044AB9C /* TicketomatTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB8FD3AD144DA4DB0044AB9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB8FD3AE144DA4DB0044AB9C /* UIKit.framework */,
+				BB8FD3B0144DA4DB0044AB9C /* Foundation.framework */,
+				BB8FD3B2144DA4DB0044AB9C /* CoreGraphics.framework */,
+				BB8FD3E0144DA4DB0044AB9C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB8FD3B4144DA4DB0044AB9C /* Ticketomat */ = {
+			isa = PBXGroup;
+			children = (
+				BB8FD3BD144DA4DB0044AB9C /* AppDelegate.h */,
+				BB8FD3BE144DA4DB0044AB9C /* AppDelegate.m */,
+				BB8FD3C0144DA4DB0044AB9C /* FirstViewController.h */,
+				BB8FD3C1144DA4DB0044AB9C /* FirstViewController.m */,
+				BB8FD3C3144DA4DB0044AB9C /* first.png */,
+				BB8FD3C5144DA4DB0044AB9C /* first@2x.png */,
+				BB8FD3C7144DA4DB0044AB9C /* SecondViewController.h */,
+				BB8FD3C8144DA4DB0044AB9C /* SecondViewController.m */,
+				BB8FD3CA144DA4DB0044AB9C /* second.png */,
+				BB8FD3CC144DA4DB0044AB9C /* second@2x.png */,
+				BB8FD3CE144DA4DB0044AB9C /* FirstViewController_iPhone.xib */,
+				BB8FD3D1144DA4DB0044AB9C /* FirstViewController_iPad.xib */,
+				BB8FD3D4144DA4DB0044AB9C /* SecondViewController_iPhone.xib */,
+				BB8FD3D7144DA4DB0044AB9C /* SecondViewController_iPad.xib */,
+				BB8FD3B5144DA4DB0044AB9C /* Supporting Files */,
+			);
+			path = Ticketomat;
+			sourceTree = "<group>";
+		};
+		BB8FD3B5144DA4DB0044AB9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB8FD3B6144DA4DB0044AB9C /* Ticketomat-Info.plist */,
+				BB8FD3B7144DA4DB0044AB9C /* InfoPlist.strings */,
+				BB8FD3BA144DA4DB0044AB9C /* main.m */,
+				BB8FD3BC144DA4DB0044AB9C /* Ticketomat-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB8FD3E6144DA4DB0044AB9C /* TicketomatTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB8FD3EC144DA4DB0044AB9C /* TicketomatTests.h */,
+				BB8FD3ED144DA4DB0044AB9C /* TicketomatTests.m */,
+				BB8FD3E7144DA4DB0044AB9C /* Supporting Files */,
+			);
+			path = TicketomatTests;
+			sourceTree = "<group>";
+		};
+		BB8FD3E7144DA4DB0044AB9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB8FD3E8144DA4DB0044AB9C /* TicketomatTests-Info.plist */,
+				BB8FD3E9144DA4DB0044AB9C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB8FD3A9144DA4DB0044AB9C /* Ticketomat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB8FD3F1144DA4DB0044AB9C /* Build configuration list for PBXNativeTarget "Ticketomat" */;
+			buildPhases = (
+				BB8FD3A6144DA4DB0044AB9C /* Sources */,
+				BB8FD3A7144DA4DB0044AB9C /* Frameworks */,
+				BB8FD3A8144DA4DB0044AB9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ticketomat;
+			productName = Ticketomat;
+			productReference = BB8FD3AA144DA4DB0044AB9C /* Ticketomat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB8FD3DE144DA4DB0044AB9C /* TicketomatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB8FD3F4144DA4DB0044AB9C /* Build configuration list for PBXNativeTarget "TicketomatTests" */;
+			buildPhases = (
+				BB8FD3DA144DA4DB0044AB9C /* Sources */,
+				BB8FD3DB144DA4DB0044AB9C /* Frameworks */,
+				BB8FD3DC144DA4DB0044AB9C /* Resources */,
+				BB8FD3DD144DA4DB0044AB9C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB8FD3E5144DA4DB0044AB9C /* PBXTargetDependency */,
+			);
+			name = TicketomatTests;
+			productName = TicketomatTests;
+			productReference = BB8FD3DF144DA4DB0044AB9C /* TicketomatTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB8FD3A1144DA4DA0044AB9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = BB8FD3A4144DA4DA0044AB9C /* Build configuration list for PBXProject "Ticketomat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BB8FD39F144DA4DA0044AB9C;
+			productRefGroup = BB8FD3AB144DA4DB0044AB9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB8FD3A9144DA4DB0044AB9C /* Ticketomat */,
+				BB8FD3DE144DA4DB0044AB9C /* TicketomatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB8FD3A8144DA4DB0044AB9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8FD3B9144DA4DB0044AB9C /* InfoPlist.strings in Resources */,
+				BB8FD3C4144DA4DB0044AB9C /* first.png in Resources */,
+				BB8FD3C6144DA4DB0044AB9C /* first@2x.png in Resources */,
+				BB8FD3CB144DA4DB0044AB9C /* second.png in Resources */,
+				BB8FD3CD144DA4DB0044AB9C /* second@2x.png in Resources */,
+				BB8FD3D0144DA4DB0044AB9C /* FirstViewController_iPhone.xib in Resources */,
+				BB8FD3D3144DA4DB0044AB9C /* FirstViewController_iPad.xib in Resources */,
+				BB8FD3D6144DA4DB0044AB9C /* SecondViewController_iPhone.xib in Resources */,
+				BB8FD3D9144DA4DB0044AB9C /* SecondViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8FD3DC144DA4DB0044AB9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8FD3EB144DA4DB0044AB9C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BB8FD3DD144DA4DB0044AB9C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB8FD3A6144DA4DB0044AB9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8FD3BB144DA4DB0044AB9C /* main.m in Sources */,
+				BB8FD3BF144DA4DB0044AB9C /* AppDelegate.m in Sources */,
+				BB8FD3C2144DA4DB0044AB9C /* FirstViewController.m in Sources */,
+				BB8FD3C9144DA4DB0044AB9C /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8FD3DA144DA4DB0044AB9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8FD3EE144DA4DB0044AB9C /* TicketomatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB8FD3E5144DA4DB0044AB9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB8FD3A9144DA4DB0044AB9C /* Ticketomat */;
+			targetProxy = BB8FD3E4144DA4DB0044AB9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB8FD3B7144DA4DB0044AB9C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB8FD3B8144DA4DB0044AB9C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BB8FD3CE144DA4DB0044AB9C /* FirstViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB8FD3CF144DA4DB0044AB9C /* en */,
+			);
+			name = FirstViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		BB8FD3D1144DA4DB0044AB9C /* FirstViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB8FD3D2144DA4DB0044AB9C /* en */,
+			);
+			name = FirstViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		BB8FD3D4144DA4DB0044AB9C /* SecondViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB8FD3D5144DA4DB0044AB9C /* en */,
+			);
+			name = SecondViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		BB8FD3D7144DA4DB0044AB9C /* SecondViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB8FD3D8144DA4DB0044AB9C /* en */,
+			);
+			name = SecondViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		BB8FD3E9144DA4DB0044AB9C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB8FD3EA144DA4DB0044AB9C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB8FD3EF144DA4DB0044AB9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB8FD3F0144DA4DB0044AB9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB8FD3F2144DA4DB0044AB9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ticketomat/Ticketomat-Prefix.pch";
+				INFOPLIST_FILE = "Ticketomat/Ticketomat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BB8FD3F3144DA4DB0044AB9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ticketomat/Ticketomat-Prefix.pch";
+				INFOPLIST_FILE = "Ticketomat/Ticketomat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BB8FD3F5144DA4DB0044AB9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ticketomat.app/Ticketomat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ticketomat/Ticketomat-Prefix.pch";
+				INFOPLIST_FILE = "TicketomatTests/TicketomatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BB8FD3F6144DA4DB0044AB9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ticketomat.app/Ticketomat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ticketomat/Ticketomat-Prefix.pch";
+				INFOPLIST_FILE = "TicketomatTests/TicketomatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB8FD3A4144DA4DA0044AB9C /* Build configuration list for PBXProject "Ticketomat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB8FD3EF144DA4DB0044AB9C /* Debug */,
+				BB8FD3F0144DA4DB0044AB9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB8FD3F1144DA4DB0044AB9C /* Build configuration list for PBXNativeTarget "Ticketomat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB8FD3F2144DA4DB0044AB9C /* Debug */,
+				BB8FD3F3144DA4DB0044AB9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BB8FD3F4144DA4DB0044AB9C /* Build configuration list for PBXNativeTarget "TicketomatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB8FD3F5144DA4DB0044AB9C /* Debug */,
+				BB8FD3F6144DA4DB0044AB9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB8FD3A1144DA4DA0044AB9C /* Project object */;
+}
