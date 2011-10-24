@@ -8,9 +8,9 @@
 
 #import "AppDelegate.h"
 
-#import "FirstViewController.h"
-
-#import "SecondViewController.h"
+#import "MapViewController.h"
+#import "TOMapper.h"
+#import "TicketomatsViewController.h"
 
 @implementation AppDelegate
 
@@ -19,21 +19,44 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [self setupRestKit];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    UIViewController *viewController1, *viewController2;
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        viewController1 = [[FirstViewController alloc] initWithNibName:@"FirstViewController_iPhone" bundle:nil];
-        viewController2 = [[SecondViewController alloc] initWithNibName:@"SecondViewController_iPhone" bundle:nil];
-    } else {
-        viewController1 = [[FirstViewController alloc] initWithNibName:@"FirstViewController_iPad" bundle:nil];
-        viewController2 = [[SecondViewController alloc] initWithNibName:@"SecondViewController_iPad" bundle:nil];
-    }
+    
+    UIViewController *ticketomatsViewController = [[TicketomatsViewController alloc] init];
+    UINavigationController *ticketomatsNaviViewController = [[UINavigationController alloc] initWithRootViewController:ticketomatsViewController];
+    
+    UIViewController *mapViewController = [[MapViewController alloc] init ];
+    UINavigationController *mapNaviViewController = [[UINavigationController alloc] initWithRootViewController:mapViewController];
+    
     self.tabBarController = [[UITabBarController alloc] init];
-    self.tabBarController.viewControllers = [NSArray arrayWithObjects:viewController1, viewController2, nil];
+    self.tabBarController.viewControllers = [NSArray arrayWithObjects:ticketomatsNaviViewController, mapNaviViewController, nil];
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
     return YES;
+}
+
+- (void) setupRestKit
+{
+    RKClient * client = [RKClient clientWithBaseURL:SERVER_BASE];
+    assert(client != nil);
+    [RKClient setSharedClient:client];
+    assert([RKClient sharedClient] != nil);
+    // Initialize RestKit
+	RKObjectManager* objectManager = [RKObjectManager objectManagerWithBaseURL:SERVER_BASE];
+    [objectManager setClient:[RKClient sharedClient]];
+    [RKObjectManager setSharedManager:objectManager];
+    
+    //Create object store
+    objectManager.objectStore = [RKManagedObjectStore objectStoreWithStoreFilename:@"Ticketomat.sqlite" usingSeedDatabaseName:nil managedObjectModel:nil delegate:self];
+    //    [[objectManager.objectStore managedObjectContext] setRetainsRegisteredObjects:NO];
+    
+    //Create mapper
+    TOMapper* mapper = [[TOMapper alloc] initWithObjectManager:objectManager];
+    //Map attributes and relations
+    [mapper mapAttributesAndRelations];
+    Class<RKParser> parserClass = [[RKParserRegistry sharedRegistry] parserClassForMIMEType:@"application/json"];
+    [[RKParserRegistry sharedRegistry] setParserClass:parserClass forMIMEType:@"text/plain"];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

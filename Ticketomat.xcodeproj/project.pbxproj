@@ -7,30 +7,137 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB10DCBB144EE5D100042DE9 /* TicketomatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB10DCBA144EE5D100042DE9 /* TicketomatCell.m */; };
+		BB10DCBF144F038C00042DE9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB10DCBE144F038C00042DE9 /* CoreLocation.framework */; };
+		BB10DCC2144F061E00042DE9 /* Notiffications.m in Sources */ = {isa = PBXBuildFile; fileRef = BB10DCC1144F061D00042DE9 /* Notiffications.m */; };
+		BB422F4214515D4B008AC7FB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB422F4114515D4B008AC7FB /* MapKit.framework */; };
+		BB4E08EC144DAD620038CF25 /* libRestKitCoreData.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB4E08E4144DACD30038CF25 /* libRestKitCoreData.a */; };
+		BB4E08ED144DAD620038CF25 /* libRestKitJSONParserJSONKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB4E08E0144DACD30038CF25 /* libRestKitJSONParserJSONKit.a */; };
+		BB4E08F1144DAD620038CF25 /* libRestKitNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB4E08D4144DACD30038CF25 /* libRestKitNetwork.a */; };
+		BB4E08F2144DAD620038CF25 /* libRestKitObjectMapping.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB4E08D6144DACD30038CF25 /* libRestKitObjectMapping.a */; };
+		BB4E08F3144DAD620038CF25 /* libRestKitSupport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB4E08D8144DACD30038CF25 /* libRestKitSupport.a */; };
+		BB4E08F5144DAD620038CF25 /* libRestKitXMLParserLibxml.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB4E08E2144DACD30038CF25 /* libRestKitXMLParserLibxml.a */; };
+		BB4E08FB144DADD70038CF25 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB4E08F6144DADD60038CF25 /* CFNetwork.framework */; };
+		BB4E08FC144DADD70038CF25 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB4E08F7144DADD60038CF25 /* CoreData.framework */; };
+		BB4E08FD144DADD70038CF25 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BB4E08F8144DADD70038CF25 /* libxml2.dylib */; };
+		BB4E08FE144DADD70038CF25 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB4E08F9144DADD70038CF25 /* MobileCoreServices.framework */; };
+		BB4E08FF144DADD70038CF25 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB4E08FA144DADD70038CF25 /* SystemConfiguration.framework */; };
+		BB4E0927144DB6AE0038CF25 /* TOMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4E0926144DB6AD0038CF25 /* TOMapper.m */; };
+		BB4E092B144DC0E70038CF25 /* TOModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB4E0929144DC0E60038CF25 /* TOModel.xcdatamodeld */; };
+		BB4E092E144DC1BE0038CF25 /* Ticketomat.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4E092D144DC1BD0038CF25 /* Ticketomat.m */; };
+		BB4E092F144DC1BE0038CF25 /* Ticketomat.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4E092D144DC1BD0038CF25 /* Ticketomat.m */; };
+		BB4E0934144DC33B0038CF25 /* TicketomatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4E0933144DC33B0038CF25 /* TicketomatsViewController.m */; };
+		BB4E0935144DC33B0038CF25 /* TicketomatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4E0933144DC33B0038CF25 /* TicketomatsViewController.m */; };
+		BB700FCF14556D3800751759 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BB700FCC14556D3800751759 /* SVProgressHUD.bundle */; };
+		BB700FD014556D3800751759 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BB700FCE14556D3800751759 /* SVProgressHUD.m */; };
+		BB700FF71455A5EA00751759 /* Dot.png in Resources */ = {isa = PBXBuildFile; fileRef = BB700FF51455A5E900751759 /* Dot.png */; };
+		BB700FF81455A5EA00751759 /* Right_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = BB700FF61455A5E900751759 /* Right_arrow.png */; };
+		BB778EEE145187AA006662D9 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = BB778EEC145187AA006662D9 /* map.png */; };
+		BB778EEF145187AA006662D9 /* map@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB778EED145187AA006662D9 /* map@2x.png */; };
+		BB778EF4145188C8006662D9 /* ticketomats.png in Resources */ = {isa = PBXBuildFile; fileRef = BB778EF2145188C8006662D9 /* ticketomats.png */; };
+		BB778EF5145188C8006662D9 /* ticketomats@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB778EF3145188C8006662D9 /* ticketomats@2x.png */; };
 		BB8FD3AF144DA4DB0044AB9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8FD3AE144DA4DB0044AB9C /* UIKit.framework */; };
 		BB8FD3B1144DA4DB0044AB9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8FD3B0144DA4DB0044AB9C /* Foundation.framework */; };
 		BB8FD3B3144DA4DB0044AB9C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8FD3B2144DA4DB0044AB9C /* CoreGraphics.framework */; };
 		BB8FD3B9144DA4DB0044AB9C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB8FD3B7144DA4DB0044AB9C /* InfoPlist.strings */; };
 		BB8FD3BB144DA4DB0044AB9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8FD3BA144DA4DB0044AB9C /* main.m */; };
 		BB8FD3BF144DA4DB0044AB9C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8FD3BE144DA4DB0044AB9C /* AppDelegate.m */; };
-		BB8FD3C2144DA4DB0044AB9C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8FD3C1144DA4DB0044AB9C /* FirstViewController.m */; };
-		BB8FD3C4144DA4DB0044AB9C /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = BB8FD3C3144DA4DB0044AB9C /* first.png */; };
-		BB8FD3C6144DA4DB0044AB9C /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB8FD3C5144DA4DB0044AB9C /* first@2x.png */; };
-		BB8FD3C9144DA4DB0044AB9C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8FD3C8144DA4DB0044AB9C /* SecondViewController.m */; };
-		BB8FD3CB144DA4DB0044AB9C /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = BB8FD3CA144DA4DB0044AB9C /* second.png */; };
-		BB8FD3CD144DA4DB0044AB9C /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB8FD3CC144DA4DB0044AB9C /* second@2x.png */; };
-		BB8FD3D0144DA4DB0044AB9C /* FirstViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB8FD3CE144DA4DB0044AB9C /* FirstViewController_iPhone.xib */; };
-		BB8FD3D3144DA4DB0044AB9C /* FirstViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB8FD3D1144DA4DB0044AB9C /* FirstViewController_iPad.xib */; };
-		BB8FD3D6144DA4DB0044AB9C /* SecondViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB8FD3D4144DA4DB0044AB9C /* SecondViewController_iPhone.xib */; };
-		BB8FD3D9144DA4DB0044AB9C /* SecondViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB8FD3D7144DA4DB0044AB9C /* SecondViewController_iPad.xib */; };
+		BB8FD3C9144DA4DB0044AB9C /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8FD3C8144DA4DB0044AB9C /* MapViewController.m */; };
 		BB8FD3E1144DA4DB0044AB9C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8FD3E0144DA4DB0044AB9C /* SenTestingKit.framework */; };
 		BB8FD3E2144DA4DB0044AB9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8FD3AE144DA4DB0044AB9C /* UIKit.framework */; };
 		BB8FD3E3144DA4DB0044AB9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8FD3B0144DA4DB0044AB9C /* Foundation.framework */; };
 		BB8FD3EB144DA4DB0044AB9C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB8FD3E9144DA4DB0044AB9C /* InfoPlist.strings */; };
 		BB8FD3EE144DA4DB0044AB9C /* TicketomatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8FD3ED144DA4DB0044AB9C /* TicketomatTests.m */; };
+		BBD7BC221451B064000667FE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBD7BC211451B064000667FE /* QuartzCore.framework */; };
+		BBD7BC251451B3B1000667FE /* Locator.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD7BC241451B3B1000667FE /* Locator.m */; };
+		BBD7BC281451B7FA000667FE /* MyMath.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD7BC271451B7FA000667FE /* MyMath.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		BB4E08D3144DACD30038CF25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB4E08BF144DACD20038CF25 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 253A07FC1255161B00976E89;
+			remoteInfo = RestKitNetwork;
+		};
+		BB4E08D5144DACD30038CF25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB4E08BF144DACD20038CF25 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 253A08031255162C00976E89;
+			remoteInfo = RestKitObjectMapping;
+		};
+		BB4E08D7144DACD30038CF25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB4E08BF144DACD20038CF25 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 253A080C12551D3000976E89;
+			remoteInfo = RestKitSupport;
+		};
+		BB4E08D9144DACD30038CF25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB4E08BF144DACD20038CF25 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 20808DBD13DE8CDC000A156A;
+			remoteInfo = "RestKitJSONParser+NXJSON";
+		};
+		BB4E08DB144DACD30038CF25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB4E08BF144DACD20038CF25 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2590E64F125231F600531FA8;
+			remoteInfo = "RestKitJSONParser+YAJL";
+		};
+		BB4E08DD144DACD30038CF25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB4E08BF144DACD20038CF25 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2590E66B1252353700531FA8;
+			remoteInfo = "RestKitJSONParser+SBJSON";
+		};
+		BB4E08DF144DACD30038CF25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB4E08BF144DACD20038CF25 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 73057FD11331AD2E001908EE;
+			remoteInfo = "RestKitJSONParser+JSONKit";
+		};
+		BB4E08E1144DACD30038CF25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB4E08BF144DACD20038CF25 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25BD43BD1340315800DBACDD;
+			remoteInfo = "RestKitXMLParser+Libxml";
+		};
+		BB4E08E3144DACD30038CF25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB4E08BF144DACD20038CF25 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 253A081412551D5300976E89;
+			remoteInfo = RestKitCoreData;
+		};
+		BB4E08E5144DACD30038CF25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB4E08BF144DACD20038CF25 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2523360511E79F090048F9B4;
+			remoteInfo = RestKitThree20;
+		};
+		BB4E08E7144DACD30038CF25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB4E08BF144DACD20038CF25 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3F6C39A510FE5C95008F47C5;
+			remoteInfo = "RestKit Specs";
+		};
+		BB4E08EA144DAD360038CF25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB4E08BF144DACD20038CF25 /* RestKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 255B7588133BABBF00ED76AD;
+			remoteInfo = RestKit;
+		};
 		BB8FD3E4144DA4DB0044AB9C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BB8FD3A1144DA4DA0044AB9C /* Project object */;
@@ -41,34 +148,57 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB10DCB9144EE5D100042DE9 /* TicketomatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicketomatCell.h; sourceTree = "<group>"; };
+		BB10DCBA144EE5D100042DE9 /* TicketomatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicketomatCell.m; sourceTree = "<group>"; };
+		BB10DCBE144F038C00042DE9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BB10DCC0144F061D00042DE9 /* Notiffications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notiffications.h; sourceTree = "<group>"; };
+		BB10DCC1144F061D00042DE9 /* Notiffications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Notiffications.m; sourceTree = "<group>"; };
+		BB422F4114515D4B008AC7FB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BB4E08BF144DACD20038CF25 /* RestKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RestKit.xcodeproj; path = RestKit/RestKit.xcodeproj; sourceTree = SOURCE_ROOT; };
+		BB4E08F6144DADD60038CF25 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		BB4E08F7144DADD60038CF25 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BB4E08F8144DADD70038CF25 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		BB4E08F9144DADD70038CF25 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		BB4E08FA144DADD70038CF25 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BB4E0925144DB6AD0038CF25 /* TOMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOMapper.h; sourceTree = "<group>"; };
+		BB4E0926144DB6AD0038CF25 /* TOMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOMapper.m; sourceTree = "<group>"; };
+		BB4E092A144DC0E70038CF25 /* TOModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TOModel.xcdatamodel; sourceTree = "<group>"; };
+		BB4E092C144DC1BD0038CF25 /* Ticketomat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ticketomat.h; sourceTree = "<group>"; };
+		BB4E092D144DC1BD0038CF25 /* Ticketomat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ticketomat.m; sourceTree = "<group>"; };
+		BB4E0932144DC33B0038CF25 /* TicketomatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicketomatsViewController.h; sourceTree = "<group>"; };
+		BB4E0933144DC33B0038CF25 /* TicketomatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicketomatsViewController.m; sourceTree = "<group>"; };
+		BB700FCC14556D3800751759 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = "../../../Downloads/samvermette-SVProgressHUD-4492514/SVProgressHUD/SVProgressHUD.bundle"; sourceTree = "<group>"; };
+		BB700FCD14556D3800751759 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = "../../../Downloads/samvermette-SVProgressHUD-4492514/SVProgressHUD/SVProgressHUD.h"; sourceTree = "<group>"; };
+		BB700FCE14556D3800751759 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = "../../../Downloads/samvermette-SVProgressHUD-4492514/SVProgressHUD/SVProgressHUD.m"; sourceTree = "<group>"; };
+		BB700FF51455A5E900751759 /* Dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dot.png; sourceTree = "<group>"; };
+		BB700FF61455A5E900751759 /* Right_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Right_arrow.png; sourceTree = "<group>"; };
+		BB778EEC145187AA006662D9 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map.png; path = "../../urban-action/iOS/Resources/Icons/map.png"; sourceTree = "<group>"; };
+		BB778EED145187AA006662D9 /* map@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "map@2x.png"; path = "../../urban-action/iOS/Resources/Icons/map@2x.png"; sourceTree = "<group>"; };
+		BB778EF2145188C8006662D9 /* ticketomats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ticketomats.png; path = "../../urban-action/iOS/Resources/Icons/ticketomats.png"; sourceTree = "<group>"; };
+		BB778EF3145188C8006662D9 /* ticketomats@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ticketomats@2x.png"; path = "../../urban-action/iOS/Resources/Icons/ticketomats@2x.png"; sourceTree = "<group>"; };
 		BB8FD3AA144DA4DB0044AB9C /* Ticketomat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ticketomat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB8FD3AE144DA4DB0044AB9C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BB8FD3B0144DA4DB0044AB9C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BB8FD3B2144DA4DB0044AB9C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		BB8FD3B6144DA4DB0044AB9C /* Ticketomat-Info.plist */ = {isa = PBXFileReference; path = "Ticketomat-Info.plist"; sourceTree = "<group>"; };
+		BB8FD3B6144DA4DB0044AB9C /* Ticketomat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ticketomat-Info.plist"; sourceTree = "<group>"; };
 		BB8FD3B8144DA4DB0044AB9C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BB8FD3BA144DA4DB0044AB9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BB8FD3BC144DA4DB0044AB9C /* Ticketomat-Prefix.pch */ = {isa = PBXFileReference; path = "Ticketomat-Prefix.pch"; sourceTree = "<group>"; };
-		BB8FD3BD144DA4DB0044AB9C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB8FD3BC144DA4DB0044AB9C /* Ticketomat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ticketomat-Prefix.pch"; sourceTree = "<group>"; };
+		BB8FD3BD144DA4DB0044AB9C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BB8FD3BE144DA4DB0044AB9C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BB8FD3C0144DA4DB0044AB9C /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
-		BB8FD3C1144DA4DB0044AB9C /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		BB8FD3C3144DA4DB0044AB9C /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		BB8FD3C5144DA4DB0044AB9C /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		BB8FD3C7144DA4DB0044AB9C /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
-		BB8FD3C8144DA4DB0044AB9C /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		BB8FD3CA144DA4DB0044AB9C /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		BB8FD3CC144DA4DB0044AB9C /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
-		BB8FD3CF144DA4DB0044AB9C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController_iPhone.xib; sourceTree = "<group>"; };
-		BB8FD3D2144DA4DB0044AB9C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController_iPad.xib; sourceTree = "<group>"; };
-		BB8FD3D5144DA4DB0044AB9C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController_iPhone.xib; sourceTree = "<group>"; };
-		BB8FD3D8144DA4DB0044AB9C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController_iPad.xib; sourceTree = "<group>"; };
+		BB8FD3C7144DA4DB0044AB9C /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		BB8FD3C8144DA4DB0044AB9C /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		BB8FD3DF144DA4DB0044AB9C /* TicketomatTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicketomatTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB8FD3E0144DA4DB0044AB9C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		BB8FD3E8144DA4DB0044AB9C /* TicketomatTests-Info.plist */ = {isa = PBXFileReference; path = "TicketomatTests-Info.plist"; sourceTree = "<group>"; };
+		BB8FD3E8144DA4DB0044AB9C /* TicketomatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TicketomatTests-Info.plist"; sourceTree = "<group>"; };
 		BB8FD3EA144DA4DB0044AB9C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		BB8FD3EC144DA4DB0044AB9C /* TicketomatTests.h */ = {isa = PBXFileReference; path = TicketomatTests.h; sourceTree = "<group>"; };
+		BB8FD3EC144DA4DB0044AB9C /* TicketomatTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TicketomatTests.h; sourceTree = "<group>"; };
 		BB8FD3ED144DA4DB0044AB9C /* TicketomatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicketomatTests.m; sourceTree = "<group>"; };
+		BBD7BC211451B064000667FE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BBD7BC231451B3B1000667FE /* Locator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Locator.h; sourceTree = "<group>"; };
+		BBD7BC241451B3B1000667FE /* Locator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Locator.m; sourceTree = "<group>"; };
+		BBD7BC261451B7F9000667FE /* MyMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMath.h; sourceTree = "<group>"; };
+		BBD7BC271451B7FA000667FE /* MyMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMath.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +206,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBD7BC221451B064000667FE /* QuartzCore.framework in Frameworks */,
+				BB422F4214515D4B008AC7FB /* MapKit.framework in Frameworks */,
+				BB10DCBF144F038C00042DE9 /* CoreLocation.framework in Frameworks */,
+				BB4E08FB144DADD70038CF25 /* CFNetwork.framework in Frameworks */,
+				BB4E08FC144DADD70038CF25 /* CoreData.framework in Frameworks */,
+				BB4E08FD144DADD70038CF25 /* libxml2.dylib in Frameworks */,
+				BB4E08FE144DADD70038CF25 /* MobileCoreServices.framework in Frameworks */,
+				BB4E08FF144DADD70038CF25 /* SystemConfiguration.framework in Frameworks */,
+				BB4E08EC144DAD620038CF25 /* libRestKitCoreData.a in Frameworks */,
+				BB4E08ED144DAD620038CF25 /* libRestKitJSONParserJSONKit.a in Frameworks */,
+				BB4E08F1144DAD620038CF25 /* libRestKitNetwork.a in Frameworks */,
+				BB4E08F2144DAD620038CF25 /* libRestKitObjectMapping.a in Frameworks */,
+				BB4E08F3144DAD620038CF25 /* libRestKitSupport.a in Frameworks */,
+				BB4E08F5144DAD620038CF25 /* libRestKitXMLParserLibxml.a in Frameworks */,
 				BB8FD3AF144DA4DB0044AB9C /* UIKit.framework in Frameworks */,
 				BB8FD3B1144DA4DB0044AB9C /* Foundation.framework in Frameworks */,
 				BB8FD3B3144DA4DB0044AB9C /* CoreGraphics.framework in Frameworks */,
@@ -95,9 +239,119 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB10DCB8144EE4C100042DE9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BB10DCB9144EE5D100042DE9 /* TicketomatCell.h */,
+				BB10DCBA144EE5D100042DE9 /* TicketomatCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		BB4E08C0144DACD20038CF25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB4E08D4144DACD30038CF25 /* libRestKitNetwork.a */,
+				BB4E08D6144DACD30038CF25 /* libRestKitObjectMapping.a */,
+				BB4E08D8144DACD30038CF25 /* libRestKitSupport.a */,
+				BB4E08DA144DACD30038CF25 /* libRestKitJSONParserNXJSON.a */,
+				BB4E08DC144DACD30038CF25 /* libRestKitJSONParserYAJL.a */,
+				BB4E08DE144DACD30038CF25 /* libRestKitJSONParserSBJSON.a */,
+				BB4E08E0144DACD30038CF25 /* libRestKitJSONParserJSONKit.a */,
+				BB4E08E2144DACD30038CF25 /* libRestKitXMLParserLibxml.a */,
+				BB4E08E4144DACD30038CF25 /* libRestKitCoreData.a */,
+				BB4E08E6144DACD30038CF25 /* libRestKitThree20.a */,
+				BB4E08E8144DACD30038CF25 /* RestKitSpecs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB4E0928144DB6B70038CF25 /* RestKit */ = {
+			isa = PBXGroup;
+			children = (
+				BB4E0925144DB6AD0038CF25 /* TOMapper.h */,
+				BB4E0926144DB6AD0038CF25 /* TOMapper.m */,
+			);
+			name = RestKit;
+			sourceTree = "<group>";
+		};
+		BB4E0930144DC1C50038CF25 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				BB4E0929144DC0E60038CF25 /* TOModel.xcdatamodeld */,
+				BB4E092C144DC1BD0038CF25 /* Ticketomat.h */,
+				BB4E092D144DC1BD0038CF25 /* Ticketomat.m */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		BB4E0931144DC2B00038CF25 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BB8FD3C7144DA4DB0044AB9C /* MapViewController.h */,
+				BB8FD3C8144DA4DB0044AB9C /* MapViewController.m */,
+				BB4E0932144DC33B0038CF25 /* TicketomatsViewController.h */,
+				BB4E0933144DC33B0038CF25 /* TicketomatsViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BB700FD114556D3D00751759 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				BB700FCC14556D3800751759 /* SVProgressHUD.bundle */,
+				BB700FCD14556D3800751759 /* SVProgressHUD.h */,
+				BB700FCE14556D3800751759 /* SVProgressHUD.m */,
+			);
+			name = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		BB7010141455B63400751759 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				BBD7BC231451B3B1000667FE /* Locator.h */,
+				BBD7BC241451B3B1000667FE /* Locator.m */,
+				BB10DCC0144F061D00042DE9 /* Notiffications.h */,
+				BB10DCC1144F061D00042DE9 /* Notiffications.m */,
+				BBD7BC261451B7F9000667FE /* MyMath.h */,
+				BBD7BC271451B7FA000667FE /* MyMath.m */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		BB7010151455B67700751759 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				BB700FF51455A5E900751759 /* Dot.png */,
+				BB700FF61455A5E900751759 /* Right_arrow.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		BB778EF0145187B5006662D9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BB7010151455B67700751759 /* Icons */,
+				BB778EF1145187CE006662D9 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BB778EF1145187CE006662D9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BB778EF2145188C8006662D9 /* ticketomats.png */,
+				BB778EF3145188C8006662D9 /* ticketomats@2x.png */,
+				BB778EEC145187AA006662D9 /* map.png */,
+				BB778EED145187AA006662D9 /* map@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		BB8FD39F144DA4DA0044AB9C = {
 			isa = PBXGroup;
 			children = (
+				BBD7BC211451B064000667FE /* QuartzCore.framework */,
 				BB8FD3B4144DA4DB0044AB9C /* Ticketomat */,
 				BB8FD3E6144DA4DB0044AB9C /* TicketomatTests */,
 				BB8FD3AD144DA4DB0044AB9C /* Frameworks */,
@@ -117,6 +371,15 @@
 		BB8FD3AD144DA4DB0044AB9C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BB700FD114556D3D00751759 /* SVProgressHUD */,
+				BB422F4114515D4B008AC7FB /* MapKit.framework */,
+				BB10DCBE144F038C00042DE9 /* CoreLocation.framework */,
+				BB4E08BF144DACD20038CF25 /* RestKit.xcodeproj */,
+				BB4E08F6144DADD60038CF25 /* CFNetwork.framework */,
+				BB4E08F7144DADD60038CF25 /* CoreData.framework */,
+				BB4E08F8144DADD70038CF25 /* libxml2.dylib */,
+				BB4E08F9144DADD70038CF25 /* MobileCoreServices.framework */,
+				BB4E08FA144DADD70038CF25 /* SystemConfiguration.framework */,
 				BB8FD3AE144DA4DB0044AB9C /* UIKit.framework */,
 				BB8FD3B0144DA4DB0044AB9C /* Foundation.framework */,
 				BB8FD3B2144DA4DB0044AB9C /* CoreGraphics.framework */,
@@ -128,20 +391,14 @@
 		BB8FD3B4144DA4DB0044AB9C /* Ticketomat */ = {
 			isa = PBXGroup;
 			children = (
+				BB7010141455B63400751759 /* Framework */,
+				BB778EF0145187B5006662D9 /* Resources */,
+				BB10DCB8144EE4C100042DE9 /* Cells */,
+				BB4E0931144DC2B00038CF25 /* ViewControllers */,
+				BB4E0930144DC1C50038CF25 /* Entities */,
+				BB4E0928144DB6B70038CF25 /* RestKit */,
 				BB8FD3BD144DA4DB0044AB9C /* AppDelegate.h */,
 				BB8FD3BE144DA4DB0044AB9C /* AppDelegate.m */,
-				BB8FD3C0144DA4DB0044AB9C /* FirstViewController.h */,
-				BB8FD3C1144DA4DB0044AB9C /* FirstViewController.m */,
-				BB8FD3C3144DA4DB0044AB9C /* first.png */,
-				BB8FD3C5144DA4DB0044AB9C /* first@2x.png */,
-				BB8FD3C7144DA4DB0044AB9C /* SecondViewController.h */,
-				BB8FD3C8144DA4DB0044AB9C /* SecondViewController.m */,
-				BB8FD3CA144DA4DB0044AB9C /* second.png */,
-				BB8FD3CC144DA4DB0044AB9C /* second@2x.png */,
-				BB8FD3CE144DA4DB0044AB9C /* FirstViewController_iPhone.xib */,
-				BB8FD3D1144DA4DB0044AB9C /* FirstViewController_iPad.xib */,
-				BB8FD3D4144DA4DB0044AB9C /* SecondViewController_iPhone.xib */,
-				BB8FD3D7144DA4DB0044AB9C /* SecondViewController_iPad.xib */,
 				BB8FD3B5144DA4DB0044AB9C /* Supporting Files */,
 			);
 			path = Ticketomat;
@@ -191,6 +448,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				BB4E08EB144DAD360038CF25 /* PBXTargetDependency */,
 			);
 			name = Ticketomat;
 			productName = Ticketomat;
@@ -234,6 +492,12 @@
 			mainGroup = BB8FD39F144DA4DA0044AB9C;
 			productRefGroup = BB8FD3AB144DA4DB0044AB9C /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = BB4E08C0144DACD20038CF25 /* Products */;
+					ProjectRef = BB4E08BF144DACD20038CF25 /* RestKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				BB8FD3A9144DA4DB0044AB9C /* Ticketomat */,
@@ -242,20 +506,99 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		BB4E08D4144DACD30038CF25 /* libRestKitNetwork.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitNetwork.a;
+			remoteRef = BB4E08D3144DACD30038CF25 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BB4E08D6144DACD30038CF25 /* libRestKitObjectMapping.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitObjectMapping.a;
+			remoteRef = BB4E08D5144DACD30038CF25 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BB4E08D8144DACD30038CF25 /* libRestKitSupport.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitSupport.a;
+			remoteRef = BB4E08D7144DACD30038CF25 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BB4E08DA144DACD30038CF25 /* libRestKitJSONParserNXJSON.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitJSONParserNXJSON.a;
+			remoteRef = BB4E08D9144DACD30038CF25 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BB4E08DC144DACD30038CF25 /* libRestKitJSONParserYAJL.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitJSONParserYAJL.a;
+			remoteRef = BB4E08DB144DACD30038CF25 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BB4E08DE144DACD30038CF25 /* libRestKitJSONParserSBJSON.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitJSONParserSBJSON.a;
+			remoteRef = BB4E08DD144DACD30038CF25 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BB4E08E0144DACD30038CF25 /* libRestKitJSONParserJSONKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitJSONParserJSONKit.a;
+			remoteRef = BB4E08DF144DACD30038CF25 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BB4E08E2144DACD30038CF25 /* libRestKitXMLParserLibxml.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitXMLParserLibxml.a;
+			remoteRef = BB4E08E1144DACD30038CF25 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BB4E08E4144DACD30038CF25 /* libRestKitCoreData.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitCoreData.a;
+			remoteRef = BB4E08E3144DACD30038CF25 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BB4E08E6144DACD30038CF25 /* libRestKitThree20.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitThree20.a;
+			remoteRef = BB4E08E5144DACD30038CF25 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BB4E08E8144DACD30038CF25 /* RestKitSpecs.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = RestKitSpecs.app;
+			remoteRef = BB4E08E7144DACD30038CF25 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		BB8FD3A8144DA4DB0044AB9C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BB8FD3B9144DA4DB0044AB9C /* InfoPlist.strings in Resources */,
-				BB8FD3C4144DA4DB0044AB9C /* first.png in Resources */,
-				BB8FD3C6144DA4DB0044AB9C /* first@2x.png in Resources */,
-				BB8FD3CB144DA4DB0044AB9C /* second.png in Resources */,
-				BB8FD3CD144DA4DB0044AB9C /* second@2x.png in Resources */,
-				BB8FD3D0144DA4DB0044AB9C /* FirstViewController_iPhone.xib in Resources */,
-				BB8FD3D3144DA4DB0044AB9C /* FirstViewController_iPad.xib in Resources */,
-				BB8FD3D6144DA4DB0044AB9C /* SecondViewController_iPhone.xib in Resources */,
-				BB8FD3D9144DA4DB0044AB9C /* SecondViewController_iPad.xib in Resources */,
+				BB778EEE145187AA006662D9 /* map.png in Resources */,
+				BB778EEF145187AA006662D9 /* map@2x.png in Resources */,
+				BB778EF4145188C8006662D9 /* ticketomats.png in Resources */,
+				BB778EF5145188C8006662D9 /* ticketomats@2x.png in Resources */,
+				BB700FCF14556D3800751759 /* SVProgressHUD.bundle in Resources */,
+				BB700FF71455A5EA00751759 /* Dot.png in Resources */,
+				BB700FF81455A5EA00751759 /* Right_arrow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,8 +635,16 @@
 			files = (
 				BB8FD3BB144DA4DB0044AB9C /* main.m in Sources */,
 				BB8FD3BF144DA4DB0044AB9C /* AppDelegate.m in Sources */,
-				BB8FD3C2144DA4DB0044AB9C /* FirstViewController.m in Sources */,
-				BB8FD3C9144DA4DB0044AB9C /* SecondViewController.m in Sources */,
+				BB8FD3C9144DA4DB0044AB9C /* MapViewController.m in Sources */,
+				BB4E0927144DB6AE0038CF25 /* TOMapper.m in Sources */,
+				BB4E092B144DC0E70038CF25 /* TOModel.xcdatamodeld in Sources */,
+				BB4E092E144DC1BE0038CF25 /* Ticketomat.m in Sources */,
+				BB4E0934144DC33B0038CF25 /* TicketomatsViewController.m in Sources */,
+				BB10DCBB144EE5D100042DE9 /* TicketomatCell.m in Sources */,
+				BB10DCC2144F061E00042DE9 /* Notiffications.m in Sources */,
+				BBD7BC251451B3B1000667FE /* Locator.m in Sources */,
+				BBD7BC281451B7FA000667FE /* MyMath.m in Sources */,
+				BB700FD014556D3800751759 /* SVProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,12 +653,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB8FD3EE144DA4DB0044AB9C /* TicketomatTests.m in Sources */,
+				BB4E092F144DC1BE0038CF25 /* Ticketomat.m in Sources */,
+				BB4E0935144DC33B0038CF25 /* TicketomatsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		BB4E08EB144DAD360038CF25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RestKit;
+			targetProxy = BB4E08EA144DAD360038CF25 /* PBXContainerItemProxy */;
+		};
 		BB8FD3E5144DA4DB0044AB9C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = BB8FD3A9144DA4DB0044AB9C /* Ticketomat */;
@@ -322,38 +680,6 @@
 				BB8FD3B8144DA4DB0044AB9C /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		BB8FD3CE144DA4DB0044AB9C /* FirstViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BB8FD3CF144DA4DB0044AB9C /* en */,
-			);
-			name = FirstViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		BB8FD3D1144DA4DB0044AB9C /* FirstViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BB8FD3D2144DA4DB0044AB9C /* en */,
-			);
-			name = FirstViewController_iPad.xib;
-			sourceTree = "<group>";
-		};
-		BB8FD3D4144DA4DB0044AB9C /* SecondViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BB8FD3D5144DA4DB0044AB9C /* en */,
-			);
-			name = SecondViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		BB8FD3D7144DA4DB0044AB9C /* SecondViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BB8FD3D8144DA4DB0044AB9C /* en */,
-			);
-			name = SecondViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 		BB8FD3E9144DA4DB0044AB9C /* InfoPlist.strings */ = {
@@ -373,6 +699,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -388,6 +715,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -399,6 +727,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -408,6 +737,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -417,9 +747,16 @@
 		BB8FD3F2144DA4DB0044AB9C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ticketomat/Ticketomat-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/RestKit/Build";
 				INFOPLIST_FILE = "Ticketomat/Ticketomat-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = (
+					"-fobjc-arc",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -428,9 +765,16 @@
 		BB8FD3F3144DA4DB0044AB9C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ticketomat/Ticketomat-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/RestKit/Build";
 				INFOPLIST_FILE = "Ticketomat/Ticketomat-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = (
+					"-fobjc-arc",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -489,6 +833,7 @@
 				BB8FD3F3144DA4DB0044AB9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB8FD3F4144DA4DB0044AB9C /* Build configuration list for PBXNativeTarget "TicketomatTests" */ = {
 			isa = XCConfigurationList;
@@ -497,8 +842,22 @@
 				BB8FD3F6144DA4DB0044AB9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BB4E0929144DC0E60038CF25 /* TOModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BB4E092A144DC0E70038CF25 /* TOModel.xcdatamodel */,
+			);
+			currentVersion = BB4E092A144DC0E70038CF25 /* TOModel.xcdatamodel */;
+			path = TOModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BB8FD3A1144DA4DA0044AB9C /* Project object */;
 }

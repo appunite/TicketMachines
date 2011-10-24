@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TOMapper.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate, UITabBarControllerDelegate>
+
+- (void) setupRestKit;
 
 @property (strong, nonatomic) UIWindow *window;
 
