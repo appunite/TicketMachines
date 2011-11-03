@@ -24,14 +24,15 @@
     // Override point for customization after application launch.
     
     UIViewController *ticketomatsViewController = [[TicketomatsViewController alloc] init];
-    UINavigationController *ticketomatsNaviViewController = [[UINavigationController alloc] initWithRootViewController:ticketomatsViewController];
+    
     
     UIViewController *mapViewController = [[MapViewController alloc] init ];
-    UINavigationController *mapNaviViewController = [[UINavigationController alloc] initWithRootViewController:mapViewController];
+    //UINavigationController *ticketomatsNaviViewController = [[UINavigationController alloc] initWithRootViewController:ticketomatsViewController];
     
-    self.tabBarController = [[UITabBarController alloc] init];
-    self.tabBarController.viewControllers = [NSArray arrayWithObjects:ticketomatsNaviViewController, mapNaviViewController, nil];
-    self.window.rootViewController = self.tabBarController;
+    UISplitViewController* splitVC = [[UISplitViewController alloc] init];
+    splitVC.viewControllers = [NSArray arrayWithObjects:ticketomatsViewController, mapViewController, nil];
+    
+    [self.window addSubview:splitVC.view];
     [self.window makeKeyAndVisible];
     return YES;
 }

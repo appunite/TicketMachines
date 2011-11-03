@@ -10,6 +10,12 @@
 		BB10DCBB144EE5D100042DE9 /* TicketomatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB10DCBA144EE5D100042DE9 /* TicketomatCell.m */; };
 		BB10DCBF144F038C00042DE9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB10DCBE144F038C00042DE9 /* CoreLocation.framework */; };
 		BB10DCC2144F061E00042DE9 /* Notiffications.m in Sources */ = {isa = PBXBuildFile; fileRef = BB10DCC1144F061D00042DE9 /* Notiffications.m */; };
+		BB3B7DDB1456D9310069864F /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BB3B7DD81456D9310069864F /* SVProgressHUD.bundle */; };
+		BB3B7DDC1456D9310069864F /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3B7DDA1456D9310069864F /* SVProgressHUD.m */; };
+		BB3B7DE11456DBAA0069864F /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = BB3B7DDD1456DBAA0069864F /* map.png */; };
+		BB3B7DE21456DBAA0069864F /* map@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB3B7DDE1456DBAA0069864F /* map@2x.png */; };
+		BB3B7DE31456DBAA0069864F /* ticketomats.png in Resources */ = {isa = PBXBuildFile; fileRef = BB3B7DDF1456DBAA0069864F /* ticketomats.png */; };
+		BB3B7DE41456DBAA0069864F /* ticketomats@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB3B7DE01456DBAA0069864F /* ticketomats@2x.png */; };
 		BB422F4214515D4B008AC7FB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB422F4114515D4B008AC7FB /* MapKit.framework */; };
 		BB4E08EC144DAD620038CF25 /* libRestKitCoreData.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB4E08E4144DACD30038CF25 /* libRestKitCoreData.a */; };
 		BB4E08ED144DAD620038CF25 /* libRestKitJSONParserJSONKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB4E08E0144DACD30038CF25 /* libRestKitJSONParserJSONKit.a */; };
@@ -28,14 +34,8 @@
 		BB4E092F144DC1BE0038CF25 /* Ticketomat.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4E092D144DC1BD0038CF25 /* Ticketomat.m */; };
 		BB4E0934144DC33B0038CF25 /* TicketomatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4E0933144DC33B0038CF25 /* TicketomatsViewController.m */; };
 		BB4E0935144DC33B0038CF25 /* TicketomatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4E0933144DC33B0038CF25 /* TicketomatsViewController.m */; };
-		BB700FCF14556D3800751759 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BB700FCC14556D3800751759 /* SVProgressHUD.bundle */; };
-		BB700FD014556D3800751759 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BB700FCE14556D3800751759 /* SVProgressHUD.m */; };
 		BB700FF71455A5EA00751759 /* Dot.png in Resources */ = {isa = PBXBuildFile; fileRef = BB700FF51455A5E900751759 /* Dot.png */; };
 		BB700FF81455A5EA00751759 /* Right_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = BB700FF61455A5E900751759 /* Right_arrow.png */; };
-		BB778EEE145187AA006662D9 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = BB778EEC145187AA006662D9 /* map.png */; };
-		BB778EEF145187AA006662D9 /* map@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB778EED145187AA006662D9 /* map@2x.png */; };
-		BB778EF4145188C8006662D9 /* ticketomats.png in Resources */ = {isa = PBXBuildFile; fileRef = BB778EF2145188C8006662D9 /* ticketomats.png */; };
-		BB778EF5145188C8006662D9 /* ticketomats@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB778EF3145188C8006662D9 /* ticketomats@2x.png */; };
 		BB8FD3AF144DA4DB0044AB9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8FD3AE144DA4DB0044AB9C /* UIKit.framework */; };
 		BB8FD3B1144DA4DB0044AB9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8FD3B0144DA4DB0044AB9C /* Foundation.framework */; };
 		BB8FD3B3144DA4DB0044AB9C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8FD3B2144DA4DB0044AB9C /* CoreGraphics.framework */; };
@@ -153,6 +153,13 @@
 		BB10DCBE144F038C00042DE9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		BB10DCC0144F061D00042DE9 /* Notiffications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notiffications.h; sourceTree = "<group>"; };
 		BB10DCC1144F061D00042DE9 /* Notiffications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Notiffications.m; sourceTree = "<group>"; };
+		BB3B7DD81456D9310069864F /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = Ticketomat/Frameworks/SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		BB3B7DD91456D9310069864F /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = Ticketomat/Frameworks/SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		BB3B7DDA1456D9310069864F /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = Ticketomat/Frameworks/SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		BB3B7DDD1456DBAA0069864F /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map.png; path = Resources/Images/map.png; sourceTree = "<group>"; };
+		BB3B7DDE1456DBAA0069864F /* map@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "map@2x.png"; path = "Resources/Images/map@2x.png"; sourceTree = "<group>"; };
+		BB3B7DDF1456DBAA0069864F /* ticketomats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ticketomats.png; path = Resources/Images/ticketomats.png; sourceTree = "<group>"; };
+		BB3B7DE01456DBAA0069864F /* ticketomats@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ticketomats@2x.png"; path = "Resources/Images/ticketomats@2x.png"; sourceTree = "<group>"; };
 		BB422F4114515D4B008AC7FB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		BB4E08BF144DACD20038CF25 /* RestKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RestKit.xcodeproj; path = RestKit/RestKit.xcodeproj; sourceTree = SOURCE_ROOT; };
 		BB4E08F6144DADD60038CF25 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -167,15 +174,8 @@
 		BB4E092D144DC1BD0038CF25 /* Ticketomat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ticketomat.m; sourceTree = "<group>"; };
 		BB4E0932144DC33B0038CF25 /* TicketomatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicketomatsViewController.h; sourceTree = "<group>"; };
 		BB4E0933144DC33B0038CF25 /* TicketomatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicketomatsViewController.m; sourceTree = "<group>"; };
-		BB700FCC14556D3800751759 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = "../../../Downloads/samvermette-SVProgressHUD-4492514/SVProgressHUD/SVProgressHUD.bundle"; sourceTree = "<group>"; };
-		BB700FCD14556D3800751759 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = "../../../Downloads/samvermette-SVProgressHUD-4492514/SVProgressHUD/SVProgressHUD.h"; sourceTree = "<group>"; };
-		BB700FCE14556D3800751759 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = "../../../Downloads/samvermette-SVProgressHUD-4492514/SVProgressHUD/SVProgressHUD.m"; sourceTree = "<group>"; };
 		BB700FF51455A5E900751759 /* Dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dot.png; sourceTree = "<group>"; };
 		BB700FF61455A5E900751759 /* Right_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Right_arrow.png; sourceTree = "<group>"; };
-		BB778EEC145187AA006662D9 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map.png; path = "../../urban-action/iOS/Resources/Icons/map.png"; sourceTree = "<group>"; };
-		BB778EED145187AA006662D9 /* map@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "map@2x.png"; path = "../../urban-action/iOS/Resources/Icons/map@2x.png"; sourceTree = "<group>"; };
-		BB778EF2145188C8006662D9 /* ticketomats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ticketomats.png; path = "../../urban-action/iOS/Resources/Icons/ticketomats.png"; sourceTree = "<group>"; };
-		BB778EF3145188C8006662D9 /* ticketomats@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ticketomats@2x.png"; path = "../../urban-action/iOS/Resources/Icons/ticketomats@2x.png"; sourceTree = "<group>"; };
 		BB8FD3AA144DA4DB0044AB9C /* Ticketomat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ticketomat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB8FD3AE144DA4DB0044AB9C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BB8FD3B0144DA4DB0044AB9C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -299,9 +299,9 @@
 		BB700FD114556D3D00751759 /* SVProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				BB700FCC14556D3800751759 /* SVProgressHUD.bundle */,
-				BB700FCD14556D3800751759 /* SVProgressHUD.h */,
-				BB700FCE14556D3800751759 /* SVProgressHUD.m */,
+				BB3B7DD81456D9310069864F /* SVProgressHUD.bundle */,
+				BB3B7DD91456D9310069864F /* SVProgressHUD.h */,
+				BB3B7DDA1456D9310069864F /* SVProgressHUD.m */,
 			);
 			name = SVProgressHUD;
 			sourceTree = "<group>";
@@ -340,10 +340,10 @@
 		BB778EF1145187CE006662D9 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				BB778EF2145188C8006662D9 /* ticketomats.png */,
-				BB778EF3145188C8006662D9 /* ticketomats@2x.png */,
-				BB778EEC145187AA006662D9 /* map.png */,
-				BB778EED145187AA006662D9 /* map@2x.png */,
+				BB3B7DDD1456DBAA0069864F /* map.png */,
+				BB3B7DDE1456DBAA0069864F /* map@2x.png */,
+				BB3B7DDF1456DBAA0069864F /* ticketomats.png */,
+				BB3B7DE01456DBAA0069864F /* ticketomats@2x.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -592,13 +592,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB8FD3B9144DA4DB0044AB9C /* InfoPlist.strings in Resources */,
-				BB778EEE145187AA006662D9 /* map.png in Resources */,
-				BB778EEF145187AA006662D9 /* map@2x.png in Resources */,
-				BB778EF4145188C8006662D9 /* ticketomats.png in Resources */,
-				BB778EF5145188C8006662D9 /* ticketomats@2x.png in Resources */,
-				BB700FCF14556D3800751759 /* SVProgressHUD.bundle in Resources */,
 				BB700FF71455A5EA00751759 /* Dot.png in Resources */,
 				BB700FF81455A5EA00751759 /* Right_arrow.png in Resources */,
+				BB3B7DDB1456D9310069864F /* SVProgressHUD.bundle in Resources */,
+				BB3B7DE11456DBAA0069864F /* map.png in Resources */,
+				BB3B7DE21456DBAA0069864F /* map@2x.png in Resources */,
+				BB3B7DE31456DBAA0069864F /* ticketomats.png in Resources */,
+				BB3B7DE41456DBAA0069864F /* ticketomats@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -644,7 +644,7 @@
 				BB10DCC2144F061E00042DE9 /* Notiffications.m in Sources */,
 				BBD7BC251451B3B1000667FE /* Locator.m in Sources */,
 				BBD7BC281451B7FA000667FE /* MyMath.m in Sources */,
-				BB700FD014556D3800751759 /* SVProgressHUD.m in Sources */,
+				BB3B7DDC1456D9310069864F /* SVProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
