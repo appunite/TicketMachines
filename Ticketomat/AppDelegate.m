@@ -12,6 +12,12 @@
 #import "TOMapper.h"
 #import "TicketomatsViewController.h"
 
+#ifdef UI_USER_INTERFACE_IDIOM
+#define IS_IPAD() (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+#else
+#define IS_IPAD() (false)
+#endif
+
 @implementation AppDelegate
 
 @synthesize window = _window;
@@ -27,13 +33,19 @@
     
     UINavigationController *ticketomatsNaviViewController = [[UINavigationController alloc] initWithRootViewController:ticketomatsViewController];
     UINavigationController *mapNaviViewController = [[UINavigationController alloc] initWithRootViewController:mapViewController];
-                                                
-    UITabBarController * tabBarController = [[UITabBarController alloc] init];
-    [tabBarController setViewControllers:[NSArray arrayWithObjects:ticketomatsNaviViewController, mapNaviViewController, nil]];
-//    UISplitViewController* splitVC = [[UISplitViewController alloc] init];
-//    splitVC.viewControllers = [NSArray arrayWithObjects:ticketomatsViewController, mapViewController, nil];
     
-    [self.window setRootViewController:tabBarController];
+    UIViewController *mainViewController;
+    if(IS_IPAD()) {
+        UISplitViewController* splitVC = [[UISplitViewController alloc] init];
+        splitVC.viewControllers = [NSArray arrayWithObjects:ticketomatsNaviViewController, mapNaviViewController, nil];
+        mainViewController = splitVC;
+    } else {
+        UITabBarController * tabBarController = [[UITabBarController alloc] init];
+        [tabBarController setViewControllers:[NSArray arrayWithObjects:ticketomatsNaviViewController, mapNaviViewController, nil]];
+        mainViewController = tabBarController;
+    }
+
+    [self.window setRootViewController:mainViewController];
     [self.window makeKeyAndVisible];
     return YES;
 }
