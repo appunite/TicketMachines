@@ -21,18 +21,19 @@
 {
     [self setupRestKit];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
     
     UIViewController *ticketomatsViewController = [[TicketomatsViewController alloc] init];
-    
-    
     UIViewController *mapViewController = [[MapViewController alloc] init ];
-    //UINavigationController *ticketomatsNaviViewController = [[UINavigationController alloc] initWithRootViewController:ticketomatsViewController];
     
-    UISplitViewController* splitVC = [[UISplitViewController alloc] init];
-    splitVC.viewControllers = [NSArray arrayWithObjects:ticketomatsViewController, mapViewController, nil];
+    UINavigationController *ticketomatsNaviViewController = [[UINavigationController alloc] initWithRootViewController:ticketomatsViewController];
+    UINavigationController *mapNaviViewController = [[UINavigationController alloc] initWithRootViewController:mapViewController];
+                                                
+    UITabBarController * tabBarController = [[UITabBarController alloc] init];
+    [tabBarController setViewControllers:[NSArray arrayWithObjects:ticketomatsNaviViewController, mapNaviViewController, nil]];
+//    UISplitViewController* splitVC = [[UISplitViewController alloc] init];
+//    splitVC.viewControllers = [NSArray arrayWithObjects:ticketomatsViewController, mapViewController, nil];
     
-    [self.window addSubview:splitVC.view];
+    [self.window setRootViewController:tabBarController];
     [self.window makeKeyAndVisible];
     return YES;
 }
